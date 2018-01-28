@@ -2,6 +2,7 @@
 webpack start project
 # 安装方法
 1、安装node.js和npm
+
 2、安装cnpm
 ```
 npm install -g cnpm --registry=https://registry.npm.taobao.org
