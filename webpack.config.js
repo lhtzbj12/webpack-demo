@@ -41,7 +41,10 @@ module.exports = {
                     use:[{
                         loader:"css-loader"
                     },{
-                        loader:"sass-loader"
+                        loader:"sass-loader",
+                        options: {
+                            outputStyle: "compressed" //生成压缩后的文件
+                        }
                     }]
                 })
             },
@@ -52,7 +55,10 @@ module.exports = {
                     use:[{
                         loader:"css-loader"
                     },{
-                        loader:"less-loader"
+                        loader:"less-loader",
+                        options:{
+                            compress:true   //生成压缩后的文件
+                        }
                     }]
                 })
             }
