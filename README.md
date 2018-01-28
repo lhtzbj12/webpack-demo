@@ -7,15 +7,15 @@ webpack start project
 ```
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
-2、在package.json所在的文件夹执行
+3、在package.json所在的文件夹执行
 ```
 cnpm install
 ```
-3、使用下面命令进行打包
+4、使用下面命令进行打包
 ```
 npm run build
 ```
-4、使用下面命令，启动本地服务（会自动打开浏览器，并访问http://localhost:8080）
+5、使用下面命令，启动本地服务（会自动打开浏览器，并访问http://localhost:8080）
 ```
 npm start
 ```
